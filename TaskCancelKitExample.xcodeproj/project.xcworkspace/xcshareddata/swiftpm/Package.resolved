@@ -1,0 +1,15 @@
+{
+  "originHash" : "72113a3ab5ce8c9161e936f29307fccbcfd9cbba6f7c0fdae601bb137b53b905",
+  "pins" : [
+    {
+      "identity" : "taskcancelkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/insub4067/TaskCancelKit.git",
+      "state" : {
+        "revision" : "1ed6768dcf21a7b546c6aaa684dd5076e09cd647",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -11,6 +11,7 @@
 		FBB4B9972BBBC971007C6A15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4B9962BBBC971007C6A15 /* ContentView.swift */; };
 		FBB4B9992BBBC972007C6A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB4B9982BBBC972007C6A15 /* Assets.xcassets */; };
 		FBB4B99C2BBBC972007C6A15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB4B99B2BBBC972007C6A15 /* Preview Assets.xcassets */; };
+		FBB4B9A42BBBC985007C6A15 /* TaskCancelKit in Frameworks */ = {isa = PBXBuildFile; productRef = FBB4B9A32BBBC985007C6A15 /* TaskCancelKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB4B9A42BBBC985007C6A15 /* TaskCancelKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = TaskCancelKitExample;
+			packageProductDependencies = (
+				FBB4B9A32BBBC985007C6A15 /* TaskCancelKit */,
+			);
 			productName = TaskCancelKitExample;
 			productReference = FBB4B9912BBBC971007C6A15 /* TaskCancelKitExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = FBB4B9882BBBC971007C6A15;
+			packageReferences = (
+				FBB4B9A22BBBC985007C6A15 /* XCRemoteSwiftPackageReference "TaskCancelKit" */,
+			);
 			productRefGroup = FBB4B9922BBBC971007C6A15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBB4B9A22BBBC985007C6A15 /* XCRemoteSwiftPackageReference "TaskCancelKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/insub4067/TaskCancelKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBB4B9A32BBBC985007C6A15 /* TaskCancelKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBB4B9A22BBBC985007C6A15 /* XCRemoteSwiftPackageReference "TaskCancelKit" */;
+			productName = TaskCancelKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBB4B9892BBBC971007C6A15 /* Project object */;
 }
